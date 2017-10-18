@@ -7,6 +7,7 @@ class ArmPhoneValidator extends Validator {
   }
 }
 
+module.exports = Validator;
 var a = new ArmPhoneValidator();
 
 console.log(a.isArmPhone('+37495769880'));
