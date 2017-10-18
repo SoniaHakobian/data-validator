@@ -1,4 +1,4 @@
-const Validator = require('./Validator');
+const Validator = require('./Validator.js');
 class EmailValidator extends Validator
 {
   EmailValidator(inputText)
