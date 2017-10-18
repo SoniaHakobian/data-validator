@@ -15,6 +15,6 @@ class EmailValidator extends Validator
             }
     }
 };
+module.exports = Validator;
 var a = new EmailValidator();
 console.log(a.EmailValidator("sonya-hakobyan@mal.ru"));
-module.exports = Validator;
