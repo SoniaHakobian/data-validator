@@ -9,5 +9,6 @@ class URLValidator extends Validator
           return true;
    }
 }
+module.exports = Validator;
 var a = new URLValidator();
 console.log(a.isURlValid('https://www.facebook.com'));
