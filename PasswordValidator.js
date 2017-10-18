@@ -14,6 +14,7 @@ class PasswordValidator extends Validator
     }
 }
 
+module.exports = Validator;
 var a = new PasswordValidator();
 
 console.log(a.isPassword('passwordError'));
