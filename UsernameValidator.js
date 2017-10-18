@@ -13,5 +13,6 @@ isUsername(str)
           return true;
     }
 }
+module.exports = Validator;
 var a = new UsernameValidator();
 console.log(a.isUsername('Sonia_hakobian_97'));
